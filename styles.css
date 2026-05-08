@@ -1,0 +1,468 @@
+/* Color Scheme
+Main: #333333
+Secondary: #639FAB, #1C5D99
+Tertiary: #BBCDE5, #48494B
+*/
+/* Custom Fonts */
+@font-face {
+    font-family: Montserrat;
+    src: url('assets/fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* For Full Screen */
+@media (min-width: 768px) {
+    /* Main CSS */
+    body{
+        background-color: #333333;
+        color: whitesmoke;
+        font-family: Montserrat;
+    }
+    nav{
+        text-align: center;
+        margin: 0 auto;
+        background-color: #1C5D99;
+        padding: 3px;
+        border: 2px solid #BBCDE5;
+        border-radius: 10px;
+        color: whitesmoke;
+    }
+    nav ul{
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+        gap: 40px;
+
+    }
+    nav a:hover {
+        color: #639fab;
+        transition: color 0.3s ease;
+    }
+    /* Classes */
+    /* class that removes nav link styling */
+    .navigationLink {
+        text-decoration: none;
+        color: inherit;
+    }
+    /* grid container and grid item classes Referenced from Google Code */
+    .grid-container {
+        display: grid;
+        /* Creates 3 columns of equal width */
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px; /* Spacing between boxes */
+        padding: 20px;
+    }
+    .grid-item1 {
+        background-color: #1C5D99;
+        border: 1px solid #BBCDE5;
+        padding: 20px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .grid-item2 {
+        background-color: #1C5D99;
+        border: 1px solid #BBCDE5;
+        padding: 20px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .grid-item3 {
+        background-color: #1C5D99;
+        border: 1px solid #BBCDE5;
+        padding: 20px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .grid-item4 {
+        background-color: #1C5D99;
+        border: 1px solid #BBCDE5;
+        padding: 20px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    /* Classes for Grid Boxes on Skillset Page */
+    .skill-grid-item1 {
+        background-image: url(assets/images/pythonscreenshot.png);
+        border: 1px solid #BBCDE5;
+        padding: 30px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .skill-grid-item2 {
+        background-image: url(assets/images/htmlscreenshot.png);
+        border: 1px solid #BBCDE5;
+        padding: 30px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .skill-grid-item3 {
+        background-image: url(assets/images/raspberrypiscreenshot.png);
+        border: 1px solid #BBCDE5;
+        padding: 30px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .skill-grid-item4 {
+        background-image: url(assets/images/jupyterscreenshot.png);
+        border: 1px solid #BBCDE5;
+        padding: 30px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .skill-grid-item5 {
+        background-image: url(assets/images/pandasscreenshot.png);
+        border: 1px solid #BBCDE5;
+        padding: 30px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .skill-grid-item6 {
+        background-image: url(assets/images/apiscreenshot.png);
+        border: 1px solid #BBCDE5;
+        padding: 30px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .skill-grid-item7 {
+        background-image: url(assets/images/gitscreenshot.png);
+        border: 1px solid #BBCDE5;
+        padding: 30px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .skill-grid-item8 {
+        background-image: url(assets/images/sqlscreenshot.png);
+        border: 1px solid #BBCDE5;
+        padding: 30px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .skillstext {
+        color: whitesmoke;
+        font-family: Montserrat;
+        font-size: 18px;
+        background: #000000;
+        margin: 0 auto;
+        display: inline-block;
+    }
+    .projects-table {
+        table-layout: fixed;
+        border: 1px solid #BBCDE5;
+        align-items: center;
+    }
+    .projects-table th {
+        text-align: center;
+        border: 1px solid #BBCDE5;
+        margin-left: auto;
+        margin-right: auto;
+        margin: 0 auto;
+    }
+    .projects-table td {
+        text-align: center;
+        border: 1px solid #BBCDE5;
+    }
+}
+/* For Half Screen */
+@media (min-width: 361px) {
+    /* Main CSS */
+    body{
+        background-color: #333333;
+        color: whitesmoke;
+        font-family: Montserrat;
+    }
+    nav{
+        text-align: center;
+        margin: 0 auto;
+        background-color: #1C5D99;
+        padding: 3px;
+        border: 2px solid #BBCDE5;
+        border-radius: 10px;
+        color: whitesmoke;
+    }
+    nav ul{
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+        gap: 40px;
+
+    }
+    nav a:hover {
+        color: #639fab;
+        transition: color 0.3s ease;
+    }
+    /* Classes */
+    /* class that removes nav link styling */
+    .navigationLink {
+        text-decoration: none;
+        color: inherit;
+    }
+    /* grid container and grid item classes Referenced from Google Code */
+    .grid-container {
+        display: grid;
+        /* Creates 3 columns of equal width */
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px; /* Spacing between boxes */
+        padding: 20px;
+    }
+    .grid-item1 {
+        background-color: #1C5D99;
+        border: 1px solid #BBCDE5;
+        padding: 20px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .grid-item2 {
+        background-color: #1C5D99;
+        border: 1px solid #BBCDE5;
+        padding: 20px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .grid-item3 {
+        background-color: #1C5D99;
+        border: 1px solid #BBCDE5;
+        padding: 20px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .grid-item4 {
+        background-color: #1C5D99;
+        border: 1px solid #BBCDE5;
+        padding: 20px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    /* Classes for Grid Boxes on Skillset Page */
+    .skill-grid-item1 {
+        background-image: url(assets/images/pythonscreenshot.png);
+        border: 1px solid #BBCDE5;
+        padding: 30px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .skill-grid-item2 {
+        background-image: url(assets/images/htmlscreenshot.png);
+        border: 1px solid #BBCDE5;
+        padding: 30px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .skill-grid-item3 {
+        background-image: url(assets/images/raspberrypiscreenshot.png);
+        border: 1px solid #BBCDE5;
+        padding: 30px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .skill-grid-item4 {
+        background-image: url(assets/images/jupyterscreenshot.png);
+        border: 1px solid #BBCDE5;
+        padding: 30px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .skill-grid-item5 {
+        background-image: url(assets/images/pandasscreenshot.png);
+        border: 1px solid #BBCDE5;
+        padding: 30px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .skill-grid-item6 {
+        background-image: url(assets/images/apiscreenshot.png);
+        border: 1px solid #BBCDE5;
+        padding: 30px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .skill-grid-item7 {
+        background-image: url(assets/images/gitscreenshot.png);
+        border: 1px solid #BBCDE5;
+        padding: 30px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .skill-grid-item8 {
+        background-image: url(assets/images/sqlscreenshot.png);
+        border: 1px solid #BBCDE5;
+        padding: 30px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .skillstext {
+        color: whitesmoke;
+        font-family: Montserrat;
+        font-size: 18px;
+        background: #000000;
+        margin: 0 auto;
+        display: inline-block;
+    }
+    .projects-table {
+        table-layout: fixed;
+        border: 1px solid #BBCDE5;
+        align-items: center;
+    }
+    .projects-table th {
+        text-align: center;
+        border: 1px solid #BBCDE5;
+        margin-left: auto;
+        margin-right: auto;
+        margin: 0 auto;
+    }
+    .projects-table td {
+        text-align: center;
+        border: 1px solid #BBCDE5;
+    }
+}
+/* For Mobile */
+@media (max-width: 360px) {
+    /* Main CSS */
+    body{
+        background-color: #333333;
+        color: whitesmoke;
+        font-family: Montserrat;
+    }
+    nav{
+        text-align: center;
+        margin: 0 auto;
+        background-color: #1C5D99;
+        padding: 3px;
+        border: 2px solid #BBCDE5;
+        border-radius: 10px;
+        color: whitesmoke;
+    }
+    nav ul{
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+        gap: 40px;
+
+    }
+    nav a:hover {
+        color: #639fab;
+        transition: color 0.3s ease;
+    }
+    /* Classes */
+    /* class that removes nav link styling */
+    .navigationLink {
+        text-decoration: none;
+        color: inherit;
+    }
+    /* grid container and grid item classes Referenced from Google Code */
+    .grid-container {
+        display: grid;
+        /* Creates 3 columns of equal width */
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px; /* Spacing between boxes */
+        padding: 20px;
+    }
+    .grid-item1 {
+        background-color: #1C5D99;
+        border: 1px solid #BBCDE5;
+        padding: 20px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .grid-item2 {
+        background-color: #1C5D99;
+        border: 1px solid #BBCDE5;
+        padding: 20px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .grid-item3 {
+        background-color: #1C5D99;
+        border: 1px solid #BBCDE5;
+        padding: 20px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .grid-item4 {
+        background-color: #1C5D99;
+        border: 1px solid #BBCDE5;
+        padding: 20px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    /* Classes for Grid Boxes on Skillset Page */
+    .skill-grid-item1 {
+        background-image: url(assets/images/pythonscreenshot.png);
+        border: 1px solid #BBCDE5;
+        padding: 30px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .skill-grid-item2 {
+        background-image: url(assets/images/htmlscreenshot.png);
+        border: 1px solid #BBCDE5;
+        padding: 30px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .skill-grid-item3 {
+        background-image: url(assets/images/raspberrypiscreenshot.png);
+        border: 1px solid #BBCDE5;
+        padding: 30px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .skill-grid-item4 {
+        background-image: url(assets/images/jupyterscreenshot.png);
+        border: 1px solid #BBCDE5;
+        padding: 30px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .skill-grid-item5 {
+        background-image: url(assets/images/pandasscreenshot.png);
+        border: 1px solid #BBCDE5;
+        padding: 30px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .skill-grid-item6 {
+        background-image: url(assets/images/apiscreenshot.png);
+        border: 1px solid #BBCDE5;
+        padding: 30px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .skill-grid-item7 {
+        background-image: url(assets/images/gitscreenshot.png);
+        border: 1px solid #BBCDE5;
+        padding: 30px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .skill-grid-item8 {
+        background-image: url(assets/images/sqlscreenshot.png);
+        border: 1px solid #BBCDE5;
+        padding: 30px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .skillstext {
+        color: whitesmoke;
+        font-family: Montserrat;
+        font-size: 18px;
+        background: #000000;
+        margin: 0 auto;
+        display: inline-block;
+    }
+    .projects-table {
+        table-layout: fixed;
+        border: 1px solid #BBCDE5;
+        align-items: center;
+    }
+    .projects-table th {
+        text-align: center;
+        border: 1px solid #BBCDE5;
+        margin-left: auto;
+        margin-right: auto;
+        margin: 0 auto;
+    }
+    .projects-table td {
+        text-align: center;
+        border: 1px solid #BBCDE5;
+    }
+}

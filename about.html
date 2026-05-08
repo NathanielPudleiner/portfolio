@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathaniel Pudleiner</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/images/faviconlogo.png">
+    <style>
+        .mainaboutme {
+            text-align: center;
+        }
+        .carousel-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .carousel-container img {
+            height: 200px;
+            width: 200px;
+        }
+        .slide {
+            display: none;
+        }
+        .fade {
+            animation: fadeAnim 1.5s;
+        }
+        .interests-list {
+            text-align: center;
+        }
+        .sictc-link {
+            color: #1C5D99;
+        }
+        .hobbies-interests dd {
+            line-height: 1.6;
+        }
+        @keyframes fadeAnim { from {opacity: 0.4} to {opacity: 1} }
+    </style>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a class="navigationLink" href="index.html">Home</a></li>
+        <li><a class="navigationLink" href="Skillset.html">Skillset</a></li>
+        <li><a class="navigationLink" href="About.html">About Me</a></li>
+        <li><a class="navigationLink" href="Projects.html">Projects</a></li>
+        <li><a class="navigationLink" href="Contact.html">Contact</a></li>
+    </ul>
+</nav>
+<main>
+    <br><br>
+    <div class="carousel-container">
+        <div class="slide fade"><img src="assets/images/archery50.jpeg" alt="archery perfect 50"></div>
+        <div class="slide fade"><img src="assets/images/archeryfulldraw.jpeg" alt="archery full-draw"></div>
+        <div class="slide fade"><img src="assets/images/archerynationals.jpeg" alt="archery nationals"></div>
+        <div class="slide fade"><img src="assets/images/butler.jpeg" alt="butler basketball"></div>
+        <div class="slide fade"><img src="assets/images/hiking.jpeg" alt="hiking"></div>
+        <div class="slide fade"><img src="assets/images/goofyhaircut.jpeg" alt="goofy haircut"></div>
+        <div class="slide fade"><img src="assets/images/cubs.jpeg" alt="chicago cubs"></div>
+        <p class="mainaboutme">
+            Hello! I'm Nathaniel Pudleiner. I'm currently a Junior at NewTech Institute in Evansville, Indiana, and also a student at the <a class="sictc-link" href="https://sictc.evscschools.com/">Southern Indiana Career & Technical Center</a> (SICTC).
+            I am in the Computer Science & Software Development Course at SICTC. I aspire to be either a front-end programmer/web developer or a statistician and sabermetrician for a professional baseball team.
+            I am proficient in problem-solving and collaboration since my high school teaches through project-based learning. I have also learned crucial skills in verbal communications throught numerous class presentations.
+            I am detail-oriented and extremely organized. I strive myself on being a disciplined, analytical, adaptable, creative thinking individual. I have a fascination with numbers and data, and I love looking at the data trying to figure out the bigger picture.
+            I am currently developing my statistical reasoning skills, and my programming fundamentals through my SICTC class.
+        </p>
+    </div>
+    <div class="hobbies-interests">
+        <h1 style="text-align: center;">My Hobbies/Interests</h1>
+        <dl class="interests-list">
+            <dt><strong>Baseball Analytics</strong></dt>
+            <dd>
+                Baseball analytics represents my interest in understanding the game beyond what is immediately visible on the field. I enjoy studying statistics, performance trends, and advanced metrics to evaluate players, strategies, and team decision-making.
+                Analyzing data allows me to connect mathematics, logic, and sports into one discipline, where numbers tell a deeper story about performance and improvement.
+                I am particularly interested in how statistical models influence roster construction, player development, and in-game strategy, and I enjoy exploring how data-driven analysis can provide competitive advantages within professional baseball organizations.
+            </dd>
+            <dt><strong><a href="https://www.naspschools.org/" target="_blank" style="text-decoration: none; color:whitesmoke">NASP Archery</a></strong></dt>
+            <dd>
+                NASP Archery has helped me develop discipline, focus, and consistency under pressure. The sport emphasizes precision, patience, and mental control, requiring careful attention to form and repetition rather than pure physical strength.
+                Through archery, I have learned the importance of routine, concentration, and incremental improvement, as even small adjustments can significantly impact performance.
+                The structured environment of NASP competition reinforces goal-setting, personal accountability, and the ability to remain calm and composed while striving for accuracy.
+            </dd>
+            <dt><strong>Watching Sports</strong></dt>
+            <dd>
+                Watching sports allows me to study competition, teamwork, and strategy across different levels of play. I enjoy observing how athletes and coaches adapt during games, analyze momentum shifts, and execute strategic decisions in real time.
+                Beyond entertainment, watching sports provides opportunities to evaluate performance patterns, leadership dynamics, and tactical adjustments.
+                It strengthens my understanding of how preparation, analytics, and teamwork contribute to success, while also deepening my appreciation for athletic excellence and competitive environments.
+            </dd>
+            <dt><strong>Programming</strong></dt>
+            <dd>
+                Programming interests me because it combines creativity with logical problem-solving. Writing code allows me to build functional systems, design user experiences, and transform abstract ideas into practical tools.
+                I enjoy learning new programming concepts, debugging challenges, and improving efficiency through structured thinking. Programming also encourages continuous learning, as technologies and frameworks evolve rapidly, pushing me to adapt and expand my technical skill set.
+                It represents both a creative outlet and a technical discipline that aligns closely with my career aspirations.
+            </dd>
+            <dt><strong>Sports Card Collecting</strong></dt>
+            <dd>
+                Sports card collecting reflects my appreciation for sports history, player evaluation, and long-term value analysis. Collecting involves researching athletes, tracking performance trends, and understanding rarity, condition, and market demand.
+                I enjoy organizing collections, identifying meaningful pieces, and analyzing how player performance or historical significance influences card value over time.
+                The hobby combines organization, analytical thinking, and an understanding of sports culture, while also connecting modern athletes with the historical legacy of the games they represent.
+            </dd>
+        </dl>
+    </div>
+</main>
+<footer>
+        <p>&copy; 2026 Nathaniel Pudleiner</p>
+</footer>
+<!-- Bootstrap JS Link -->
+<script src="script.js"></script>
+</body>
+</html>
